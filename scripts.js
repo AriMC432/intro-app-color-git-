@@ -8,7 +8,7 @@ const blueInput = document.getElementById('blueInput');
 const colorBox = document.getElementById('colorBox');
 const hexCode = document.getElementById('hexCode');
 const colorPicker = document.getElementById('colorPicker');
-
+ 
 // Función para convertir valores RGB a hexadecimal
 function rgbToHex(r, g, b) {
   return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1).toUpperCase();
